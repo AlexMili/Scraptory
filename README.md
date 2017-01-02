@@ -3,18 +3,11 @@ Scraptory
 Scraptory is a ruby scraper that can use tor as proxy.
 
 # Install
-You first need the last version of `tor` gem. The gem is not up to date,so you need to clone it and install it from its source repository :
 ```bash
-git clone https://github.com/dryruby/tor.rb tor
-cd tor
-gem build tor.gemspec
-gem install tor-0.1.2.gem
+gem install scraptory
 ```
-Then you can install the dependencies with `bundle` :
-```bash
-bundle install
-```
-And `Scraptory` :
+
+Or you can install from this repository :
 ```bash
 git clone https://github.com/AlexMili/scraptory
 cd scraptory
